@@ -1,0 +1,26 @@
+header:
+  version: 2
+  includes:
+    - kas-bsp.yml
+
+distro: poky-iot2000
+target: iot2000-custom-image
+
+repos:
+  meta-iot2000:
+    layers:
+      meta-iot2000-custom:
+
+  meta-openembedded:
+    layers:
+      meta-networking:
+      meta-python:
+      meta-oe:
+
+  meta-swupdate:
+    url: https://github.com/sbabic/meta-swupdate
+    refspec: c5ec279abdc607495ff4244224c497a2be6abefa
+
+local_conf_header:
+  package_ipk: |
+    PACKAGE_CLASSES = "package_ipk"
