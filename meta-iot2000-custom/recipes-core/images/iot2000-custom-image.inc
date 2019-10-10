@@ -1,6 +1,6 @@
-WKS_FILE = "example-image.${MACHINE}.wks"
+WKS_FILE = "custom-image.${MACHINE}.wks"
 
-DESCRIPTION = "Example image for the IOT2000 platform"
+DESCRIPTION = "Custom image for the IOT2000 platform"
 
 #example features
 IMAGE_FEATURES += "package-management"

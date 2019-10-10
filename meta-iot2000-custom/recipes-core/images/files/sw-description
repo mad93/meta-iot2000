@@ -2,7 +2,7 @@ software =
 {
      version = "0.1.0";
      images: ({
-              filename = "iot2000-example-image-swu-iot2000.ext4.gz";
+              filename = "iot2000-custom-image-swu-iot2000.ext4.gz";
               device = "mmcblk0p4,mmcblk0p5";
               type = "roundrobin";
               compressed = true;
