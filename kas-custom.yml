@@ -4,7 +4,7 @@ header:
     - kas-bsp.yml
 
 distro: poky-iot2000
-target: iot2000-custom-image
+target: iot2000-custom-image-swu
 
 repos:
   meta-iot2000:
