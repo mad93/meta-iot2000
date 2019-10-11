@@ -10,7 +10,7 @@ IMAGE_FEATURES += "tools-sdk"
 
 IMAGE_INSTALL += "opkg"
 IMAGE_INSTALL += "os-release"
-#IMAGE_INSTALL += "modules-load-entries"
+IMAGE_INSTALL += "modules-load-entries"
 IMAGE_INSTALL += "dmidecode"
 IMAGE_INSTALL += "openssh"
 IMAGE_INSTALL += "screen minicom"
