@@ -11,9 +11,7 @@ COMPATIBLE_MACHINE_armv4 = "(!.*armv4).*"
 COMPATIBLE_MACHINE_armv5 = "(!.*armv5).*"
 COMPATIBLE_MACHINE_mips64 = "(!.*mips64).*"
 
-SRC_URI = "http://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz \
-           file://0001-Disable-running-gyp-files-for-bundled-deps.patch \
-"
+SRC_URI = "http://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz"
 SRC_URI[md5sum] = "3c340a1599aa60bd920dc7e153bc1e4a"
 SRC_URI[sha256sum] = "3515e8e01568a5dc4dff3d91a76ebc6724f5fa2fbb58b4b0c5da7b178a2f7340"
 
