@@ -15,11 +15,14 @@ repos:
     layers:
       meta-networking:
       meta-python:
-      meta-oe:
 
   meta-swupdate:
     url: https://github.com/sbabic/meta-swupdate
     refspec: 8799e48a61c3dbf843f6e0675e0c8edb4ce5130c
+  
+  meta-rust:
+    url: https://github.com/meta-rust/meta-rust
+    refspec: 5cda04c7c2158fc982502ca1e7893f71e4ca1729
 
 local_conf_header:
   package_ipk: |

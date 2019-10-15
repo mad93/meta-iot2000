@@ -25,9 +25,6 @@ repos:
     refspec: 3bdbf72e3a4bf18a4a2c7afbde4f7ab773aeded9
     layers:
       meta-oe:
-  meta-rust:
-    url: https://github.com/meta-rust/meta-rust
-    refspec: 5cda04c7c2158fc982502ca1e7893f71e4ca1729
 
 bblayers_conf_header:
   standard: |
